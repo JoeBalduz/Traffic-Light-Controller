@@ -11,7 +11,7 @@ on is below.
 I would be using 6 LEDs for the traffic light outputs. Three of them would be for the west light and three of them would be for the 
 south light. I would then also use an LED that is on the TM4C123G that would be for the pedestrian light. Three switches would be used 
 as sensors for cars and pedestrians. The sensors will be used to change the lights. Below is what the traffic light controller looked 
-like when it was completed.
+like when it was completed. The pedestrian light is underneath the board.
 
 ![final design](https://i.imgur.com/HZYJh8x.png)
 
@@ -32,16 +32,17 @@ how I will transisiton to different states. The finite state machine I came up w
 
 ![finite state machine](https://i.imgur.com/lVnGqPD.png)
 
-The inputs bits reprsent the sensors. The most significant bit means the pedestrian sensor, the middle bit means the west sensor, and 
+The inputs bits represent the sensors. The most significant bit means the pedestrian sensor, the middle bit means the west sensor, and 
 the least significant bit means the south sensor.
 
 All that was left in the design was figuring out which ports I would use. I decided to use PB5-PB3 for the west lights, PB2-PB0 for the
-south lights, PA4 for the pedestrian sensor, PA3 for the west sensor, and PA2 for the south sensor.
+south lights, PA4 for the pedestrian sensor, PA3 for the west sensor, and PA2 for the south sensor. PF1 was used for the don't walk
+light and PF3 was used for the walk light.
 
 # How it Works
 From the state machine, you can tell what will happen when certain inputs are pressed at different states. When a switch is pressed,
 that means that there is a car, or a pedestrian, waiting to get their turn to go. The traffic lights work just how they do in real life.
 They go from green to yellow to red and then back to green again. The pedestrian light will be green when they can cross, flash red when
 they need to hurry up, and be red when they can no longer cross. I made the times of the lights much shorter than they are in real life
-so that I'm able to go through all of the states fast. I will have a video included soon to show the functioning traffic light
+so that I'm able to go through all of the states faster. I will have a video included soon to show the functioning traffic light
 controller.
