@@ -9,8 +9,8 @@ on is below.
 # Design
 
 I would be using 6 LEDs for the traffic light outputs. Three of them would be for the west light and three of them would be for the 
-south light. I would then also use an LED that is TM4C123G that would be for the pedestrian light. Three switches would be used as 
-sensors for cars and pedestrians. The sensors will be used to change the lights. Below is what it the traffic light controller looked 
+south light. I would then also use an LED that is on the TM4C123G that would be for the pedestrian light. Three switches would be used 
+as sensors for cars and pedestrians. The sensors will be used to change the lights. Below is what it the traffic light controller looked 
 like when it was completed.
 
 ![final design](https://i.imgur.com/HZYJh8x.png)
