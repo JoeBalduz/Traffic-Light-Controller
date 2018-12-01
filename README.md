@@ -7,6 +7,13 @@ on is linked below.
 ![street intersection](https://i.imgur.com/Y38acAG.jpg)
 
 # Design
+I would be using 6 LEDs for the traffic light outputs. Three of them would be for the west light and three of them would be for the south
+light. I would then also use an LED that is TM4C123G that would be for the pedestrian light. Three switches would be used as sensors for
+cars and pedestrians. The sensors will be used to change the lights. Below is what it the traffic light controller looked like when it
+was completed.
+
+![final design](https://i.imgur.com/HZYJh8x.png)
+
 I first started off by thinking of every possible state the traffic lights and the pedestrian walk light could be in. The west and south
 light should never be green and green or yellow and green at the same time. Another thing that could never happen at the same time is
 having the pedestrian walk light be on at the same time as one of the lights is green. The states I came up with are shown in the image
@@ -19,4 +26,7 @@ the green, yellow, and red light for the south light. The final bit is the pedes
 that means the light is on. When any of the traffic lights have a 0, it is off. If the pedestrian light has a 1, that means it is green
 and pedestrians should cross the street. If the pedestrian light has a 0, that means it is red and pedestrians should not cross. In the 
 last state, Walk Fast, my state shows the light as being off. What I actually want it to do is flash so that pedestrians know that the
-light will go red soon.
+light will go red soon. Now that I had all my possible states I could then draw a finite state machine to help me figure out how I will
+transisiton to different states. The finite state machine I came up with is show below.
+
+![finite state machine](https://i.imgur.com/lVnGqPD.png)
