@@ -2,7 +2,7 @@
 
 This is a traffic light controller that was created using the Tiva C Series TM4C123G. A breadboard, some LEDs, switches, and resistors
 were also used to create this traffic light controller. An image of the setup of the road this traffic light is designed to work
-on is linked below.
+on is below.
 
 ![street intersection](https://i.imgur.com/Y38acAG.jpg)
 
