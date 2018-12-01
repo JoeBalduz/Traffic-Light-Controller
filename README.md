@@ -11,7 +11,7 @@ I first started off by thinking of every possible state the traffic lights and t
 light should never be green and green or yellow and green at the same time. Another thing that could never happen at the same time is
 having the pedestrian walk light be on at the same time as one of the lights is green. The states I came up with are as follows.
 
-Go West                       Yellow West                     Go South
+Go West\t\t\t                       Yellow West                     Go South
 
 1000010                       0100010                         00110000
 
