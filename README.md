@@ -44,5 +44,6 @@ From the state machine, you can tell what will happen when certain inputs are pr
 that means that there is a car, or a pedestrian, waiting to get their turn to go. The traffic lights work just how they do in real life.
 They go from green to yellow to red and then back to green again. The pedestrian light will be green when they can cross, flash red when
 they need to hurry up, and be red when they can no longer cross. I made the times of the lights much shorter than they are in real life
-so that I'm able to go through all of the states faster. I will have a video included soon to show the functioning traffic light
-controller.
+so that I'm able to go through all of the states faster. Below is a link to a video of the working traffic light controller.
+
+https://www.youtube.com/watch?v=Lz2lez73DQE&feature=youtu.be
