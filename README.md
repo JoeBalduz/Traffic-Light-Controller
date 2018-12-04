@@ -46,4 +46,4 @@ They go from green to yellow to red and then back to green again. The pedestrian
 they need to hurry up, and be red when they can no longer cross. I made the times of the lights much shorter than they are in real life
 so that I'm able to go through all of the states faster. Below is a link to a video of the working traffic light controller.
 
-https://drive.google.com/open?id=158k2fTNwpl4b9lTQHwi54swwHiwAGDbP
+https://youtu.be/Lz2lez73DQE
